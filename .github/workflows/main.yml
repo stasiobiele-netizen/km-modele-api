@@ -1,0 +1,38 @@
+name: Codzienna Aktualizacja Bazy KM
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Robot uruchamia się codziennie o 3:00 w nocy (UTC)
+  workflow_dispatch:    # Ten wpis pozwala Ci kliknąć "Run" ręcznie w dowolnej chwili!
+
+permissions:
+  contents: write       # Pozwala robotowi zapisywać pliki w repozytorium
+
+jobs:
+  aktualizuj-baze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Klonowanie repozytorium
+        uses: actions/checkout@v3
+
+      - name: Konfiguracja języka Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalacja potrzebnych bibliotek
+        run: |
+          pip install -r requirements.txt
+
+      - name: Uruchomienie Twojego skryptu
+        run: |
+          python skrypt.py
+
+      - name: Zapisanie i wypchnięcie nowego JSON-a
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add train_models.json
+          # Zapisze zmiany tylko wtedy, jeśli plik JSON faktycznie się zmienił
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatyczna aktualizacja modeli KM" && git push)
