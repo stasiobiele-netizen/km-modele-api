@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Klonowanie repozytorium
-        uses: actions/checkout@v4
+        uses: actions/checkout@main # Pobiera absolutnie najnowszą wersję wtyczki
         with:
-          fetch-depth: 0 # POBIERA PEŁNĄ HISTORIĘ - kluczowe dla uniknięcia błędów przy ręcznym starcie!
+          fetch-depth: 0
 
       - name: Konfiguracja języka Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@main # Pobiera absolutnie najnowszą wersję wtyczki
         with:
           python-version: '3.10'
 
