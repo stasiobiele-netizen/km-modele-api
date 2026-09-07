@@ -2,11 +2,11 @@ name: Codzienna Aktualizacja Bazy KM
 
 on:
   schedule:
-    - cron: '0 3 * * *'
-  workflow_dispatch:
+    - cron: '0 3 * * *' # Automatyczne uruchomienie o 3:00 w nocy
+  workflow_dispatch:    # Przycisk do ręcznego uruchamiania
 
 permissions:
-  contents: write
+  contents: write       # Uprawnienia do zapisu w repozytorium
 
 jobs:
   aktualizuj-baze:
@@ -14,10 +14,12 @@ jobs:
 
     steps:
       - name: Klonowanie repozytorium
-        uses: actions/checkout@v4 # Zaktualizowana wersja
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # POBIERA PEŁNĄ HISTORIĘ - kluczowe dla uniknięcia błędów przy ręcznym starcie!
 
       - name: Konfiguracja języka Python
-        uses: actions/setup-python@v5 # Zaktualizowana wersja
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -29,16 +31,24 @@ jobs:
         run: |
           python skrypt.py
 
-      - name: Zapisanie i wypchnięcie nowego JSON-a
+      - name: Zapisanie i bezpieczne wypchnięcie do repozytorium
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
           
-          # Sprawdzamy, czy plik powstał. Jeśli tak, zapisujemy.
-          if [ -f train_models.json ]; then
-            git add train_models.json
-            git diff --quiet && git diff --staged --quiet || (git commit -m "Automatyczna aktualizacja modeli KM" && git pull --rebase origin main && git push)
+          # Dodajemy plik, jeśli skrypt go wygenerował
+          git add train_models.json
+          
+          # Sprawdzamy, czy w ogóle nastąpiła jakakolwiek zmiana
+          if git diff --staged --quiet; then
+            echo "Dane są identyczne jak wczoraj. Nie ma potrzeby nadpisywania pliku."
           else
-            echo "Skrypt nie wygenerował pliku train_models.json!"
-            exit 1
+            echo "Wykryto nową wersję rozkładu! Zapisuję..."
+            git commit -m "Automatyczna aktualizacja modeli KM"
+            
+            # MAGIA BEZPIECZEŃSTWA: Pobieramy to co jest na serwerze, zanim wrzucimy nowe
+            git pull --rebase origin main
+            
+            # Ostateczne wypchnięcie pliku do chmury
+            git push
           fi
