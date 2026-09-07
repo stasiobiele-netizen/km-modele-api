@@ -37,7 +37,7 @@ jobs:
           # Sprawdzamy, czy plik powstał. Jeśli tak, zapisujemy.
           if [ -f train_models.json ]; then
             git add train_models.json
-            git diff --quiet && git diff --staged --quiet || (git commit -m "Automatyczna aktualizacja modeli KM" && git push)
+            git diff --quiet && git diff --staged --quiet || (git commit -m "Automatyczna aktualizacja modeli KM" && git pull --rebase origin main && git push)
           else
             echo "Skrypt nie wygenerował pliku train_models.json!"
             exit 1
