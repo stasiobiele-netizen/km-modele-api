@@ -1,54 +1,33 @@
-name: Codzienna Aktualizacja Bazy KM
+name: Automatyczna Aktualizacja Rozkładu KM
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Automatyczne uruchomienie o 3:00 w nocy
-  workflow_dispatch:    # Przycisk do ręcznego uruchamiania
-
-permissions:
-  contents: write       # Uprawnienia do zapisu w repozytorium
+    # Uruchamia się o 3:00 czasu polskiego (1:00 UTC)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # Ta linijka dodaje magiczny przycisk "Run workflow", żebyś mógł to odpalić ręcznie do testów!
 
 jobs:
   aktualizuj-baze:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Klonowanie repozytorium
-        uses: actions/checkout@main # Pobiera absolutnie najnowszą wersję wtyczki
-        with:
-          fetch-depth: 0
+      - name: Pobranie kodu repozytorium
+        uses: actions/checkout@v3
 
-      - name: Konfiguracja języka Python
-        uses: actions/setup-python@main # Pobiera absolutnie najnowszą wersję wtyczki
+      - name: Instalacja środowiska Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Instalacja potrzebnych bibliotek
-        run: |
-          pip install -r requirements.txt
+      - name: Instalacja wymaganych bibliotek
+        run: pip install pdfplumber requests beautifulsoup4
 
-      - name: Uruchomienie Twojego skryptu
-        run: |
-          python skrypt.py
+      - name: Uruchomienie skryptu (Ekstrakcja z PDF)
+        # UWAGA: Upewnij się, że nazwa pliku poniżej to nazwa Twojego skryptu w Pythonie!
+        run: python pdf_to_json.py 
 
-      - name: Zapisanie i bezpieczne wypchnięcie do repozytorium
-        run: |
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
-          
-          # Dodajemy plik, jeśli skrypt go wygenerował
-          git add train_models.json
-          
-          # Sprawdzamy, czy w ogóle nastąpiła jakakolwiek zmiana
-          if git diff --staged --quiet; then
-            echo "Dane są identyczne jak wczoraj. Nie ma potrzeby nadpisywania pliku."
-          else
-            echo "Wykryto nową wersję rozkładu! Zapisuję..."
-            git commit -m "Automatyczna aktualizacja modeli KM"
-            
-            # MAGIA BEZPIECZEŃSTWA: Pobieramy to co jest na serwerze, zanim wrzucimy nowe
-            git pull --rebase origin main
-            
-            # Ostateczne wypchnięcie pliku do chmury
-            git push
-          fi
+      - name: Zapisanie nowego pliku JSON do repozytorium
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-aktualizacja bazy modeli KM"
+          file_pattern: train_models.json
