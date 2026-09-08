@@ -24,7 +24,7 @@ jobs:
 
       - name: Uruchomienie skryptu (Ekstrakcja z PDF)
         # UWAGA: Upewnij się, że nazwa pliku poniżej to nazwa Twojego skryptu w Pythonie!
-        run: python pdf_to_json.py 
+        run: python skrypt.py 
 
       - name: Zapisanie nowego pliku JSON do repozytorium
         uses: stefanzweifel/git-auto-commit-action@v5
