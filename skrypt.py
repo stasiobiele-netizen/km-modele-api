@@ -1,92 +1,125 @@
-import requests
-from bs4 import BeautifulSoup
 import pdfplumber
 import json
+import re
 import os
+import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
-# Baza strony i ogólna kategoria rozkładów
-BASE_URL = "https://www.mazowieckie.com.pl"
-ROZKLADY_URL = f"{BASE_URL}/pl/kategoria/rozklady-jazdy"
+# ==========================================
+# KONFIGURACJA ZAUTOMATYZOWANA
+# ==========================================
+# Strona, na której KM publikuje PDF-y z zestawieniami
+STRONA_KM_URL = "https://www.mazowieckie.com.pl/pl/podstawowe-informacje/zestawienie-pociagow-km"
+JSON_PATH = "train_models.json"
 
-def pobierz_najnowszy_pdf():
+znane_modele = [
+    "ER160", "EN57AKM", "EN57AL", "EN57", "45WE", "22WE", "31WE", 
+    "VT627", "VT628", "VT", "SA135",
+    "PUSH-PULL", "PUSH PULL", "TWINDEXX", "SUNDECK", "PIĘTROWE", 
+    "WAGONY PIĘTROWE", "EU47", "111EB", "GAMA", "TRAXX",
+    "FLIRT", "IMPULS", "ELF", "EN76", "ER75", "EN71", "EW60", "222M"
+]
+
+def znajdz_i_pobierz_pdfy():
+    print(f"Skanowanie strony KM: {STRONA_KM_URL}...")
+    pdf_pliki = []
     try:
-        # KROK 1: Pobieramy stronę główną z listą rozkładów
-        print("Łączenie ze stroną główną KM...")
-        response = requests.get(ROZKLADY_URL, timeout=10)
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(STRONA_KM_URL, headers=headers)
+        response.raise_for_status()
+        
         soup = BeautifulSoup(response.text, 'html.parser')
+        linki = soup.find_all('a', href=True)
         
-        # Szukamy linków do artykułów o rozkładach
-        for a in soup.find_all('a', href=True):
-            href = a['href']
-            # Jeśli link wygląda jak artykuł o rozkładzie
-            if 'rozklad-jazdy' in href.lower() or 'zestawienie' in href.lower():
-                if not href.startswith('http'):
-                    href = BASE_URL + href
+        for link in linki:
+            href = link['href']
+            # Szukamy linków, które kończą się na .pdf i mają w nazwie "zestawienie" lub "zestawienia"
+            if href.lower().endswith('.pdf') and 'zestawieni' in href.lower():
+                pelny_url = urljoin(STRONA_KM_URL, href)
+                nazwa_pliku = pelny_url.split('/')[-1]
                 
-                # KROK 2: Wchodzimy w ten konkretny artykuł
-                resp_art = requests.get(href, timeout=10)
-                soup_art = BeautifulSoup(resp_art.text, 'html.parser')
+                print(f"Znaleziono rozkład: {nazwa_pliku}")
+                # Pobieranie
+                pdf_resp = requests.get(pelny_url, headers=headers)
+                with open(nazwa_pliku, 'wb') as f:
+                    f.write(pdf_resp.content)
+                pdf_pliki.append(nazwa_pliku)
                 
-                # Szukamy pliku PDF z zestawieniem
-                for link in soup_art.find_all('a', href=True):
-                    pdf_href = link['href']
-                    if 'Zestawienie' in pdf_href and pdf_href.endswith('.pdf'):
-                        if not pdf_href.startswith('http'):
-                            pdf_href = BASE_URL + pdf_href
-                        return pdf_href
-                        
+        return pdf_pliki
     except Exception as e:
-        print(f"Wystąpił błąd podczas przeszukiwania strony: {e}")
-        
-    return None
+        print(f"❌ Błąd podczas skanowania strony: {e}")
+        return []
 
-def konwertuj_pdf_na_json(sciezka_pdf):
-    baza_pociagow = {}
+def konwertuj_pdf_na_json(pdf_pliki):
+    train_db = {}
+    print(f"\nRozpoczynam ekstrakcję z {len(pdf_pliki)} plików PDF...")
     
-    try:
-        with pdfplumber.open(sciezka_pdf) as pdf:
-            for strona in pdf.pages:
-                tabele = strona.extract_tables()
-                for tabela in tabele:
-                    for wiersz in tabela:
-                        # Sprawdzamy czy wiersz ma odpowiednią liczbę kolumn i czy pierwsza to numer
-                        if wiersz and len(wiersz) > 5 and wiersz[0] and str(wiersz[0]).strip().isdigit():
-                            nr_pociagu = str(wiersz[0]).strip()
-                            # UWAGA: Kolumna 5 (szósta w tabeli) to model wg Twoich ustaleń
-                            model = str(wiersz[5]).replace('\n', ' ').strip()
-                            baza_pociagow[nr_pociagu] = {"model": model}
-        
-        with open('train_models.json', 'w', encoding='utf-8') as f:
-            json.dump(baza_pociagow, f, ensure_ascii=False, indent=4)
-            
-        print(f"Gotowe! Zapisano dane o {len(baza_pociagow)} pociągach do pliku train_models.json")
-        
-    except Exception as e:
-        print(f"Błąd podczas konwersji PDF: {e}")
-
-# --- GŁÓWNA LOGIKA SKRYPTU ---
-if __name__ == "__main__":
-    link_do_pdf = pobierz_najnowszy_pdf()
-
-    if link_do_pdf:
-        print(f"Znaleziono najnowszy PDF: {link_do_pdf}")
-        plik_pdf = "zestawienie_tymczasowe.pdf"
-        
-        print("Trwa pobieranie pliku...")
+    for pdf_path in pdf_pliki:
+        print(f"Czytanie pliku: {pdf_path}")
         try:
-            pdf_response = requests.get(link_do_pdf, timeout=30)
-            with open(plik_pdf, 'wb') as f:
-                f.write(pdf_response.content)
-                
-            print("Rozpoczynam konwersję do JSON...")
-            konwertuj_pdf_na_json(plik_pdf)
-            
+            with pdfplumber.open(pdf_path) as pdf:
+                for page in pdf.pages:
+                    tabele = page.extract_tables()
+                    for tabela in tabele:
+                        for wiersz in tabela:
+                            if not wiersz:
+                                continue
+                            
+                            tekst_wiersza = " ".join([str(komorka).strip().upper() for komorka in wiersz if komorka])
+                            dopasowania = re.finditer(r'(?<!\d)(\d{4,5})(?:[\/\-](\d+))?(?!\d)', tekst_wiersza)
+                            
+                            numery_w_wierszu = []
+                            for match in dopasowania:
+                                baza_numer = match.group(1) 
+                                numery_w_wierszu.append(baza_numer)
+                                koncowka = match.group(2) 
+                                if koncowka:
+                                    if len(koncowka) <= len(baza_numer):
+                                        drugi_numer = baza_numer[:-len(koncowka)] + koncowka
+                                        numery_w_wierszu.append(drugi_numer)
+                            
+                            znaleziony_model = None
+                            for model in sorted(znane_modele, key=len, reverse=True):
+                                if model in tekst_wiersza:
+                                    if model in ["PUSH-PULL", "PUSH PULL", "TWINDEXX", "SUNDECK", "PIĘTROWE", "WAGONY PIĘTROWE", "EU47", "111EB", "GAMA", "TRAXX"]:
+                                        znaleziony_model = "Wagony Piętrowe (Push-Pull)"
+                                    else:
+                                        znaleziony_model = model
+                                    break
+                            
+                            if numery_w_wierszu and znaleziony_model:
+                                for nr in numery_w_wierszu:
+                                    # Inteligentne łączenie: jeśli numer już jest, ale model się różni
+                                    if nr in train_db:
+                                        obecny_model = train_db[nr]["model"]
+                                        if znaleziony_model not in obecny_model:
+                                            train_db[nr]["model"] = f"{obecny_model} / {znaleziony_model}"
+                                    else:
+                                        train_db[nr] = {"model": znaleziony_model}
         except Exception as e:
-            print(f"Błąd podczas pobierania pliku: {e}")
-        finally:
-            # Sprzątanie - bot usuwa pobranego PDF-a, zostawia tylko wygenerowany JSON
-            if os.path.exists(plik_pdf):
-                os.remove(plik_pdf)
-                print("Usunięto plik tymczasowy PDF.")
+            print(f"❌ Błąd analizy {pdf_path}: {e}")
+
+    # Zapis do złączonego pliku JSON
+    with open(JSON_PATH, 'w', encoding='utf-8') as f:
+        json.dump(train_db, f, indent=4, ensure_ascii=False)
+        
+    print(f"\n✅ Zakończono sukcesem! Zapisano pociągów ze WSZYSTKICH rozkładów: {len(train_db)}")
+
+# ==========================================
+# URUCHOMIENIE I SPRZĄTANIE
+# ==========================================
+if __name__ == "__main__":
+    pliki_do_przetworzenia = znajdz_i_pobierz_pdfy()
+    
+    if pliki_do_przetworzenia:
+        konwertuj_pdf_na_json(pliki_do_przetworzenia)
+        
+        # Sprzątanie - usuwamy pobrane PDF-y, żeby nie zajmowały miejsca
+        print("\nSprzątanie plików tymczasowych...")
+        for pdf_file in pliki_do_przetworzenia:
+            if os.path.exists(pdf_file):
+                os.remove(pdf_file)
+        print("🧹 Gotowe!")
     else:
-        print("Nie znaleziono linku do zestawienia na stronie KM. Sprawdź strukturę strony.")
+        print("❌ Nie znaleziono żadnych plików PDF na stronie.")
