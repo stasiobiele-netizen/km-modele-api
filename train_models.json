@@ -1,9 +1,9 @@
 {
     "91470": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91471": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91472": {
         "model": "45WE"
@@ -87,7 +87,7 @@
         "model": "ER160"
     },
     "51602": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "51136": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -96,10 +96,10 @@
         "model": "ER160"
     },
     "51606": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "51608": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "51138": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -108,7 +108,7 @@
         "model": "EN76"
     },
     "51612": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "11770": {
         "model": "222M"
@@ -129,7 +129,7 @@
         "model": "222M"
     },
     "11118": {
-        "model": "EN57AL / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AL"
     },
     "11910": {
         "model": "EN57AL"
@@ -228,19 +228,19 @@
         "model": "EN57AL"
     },
     "21720": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "21721": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "29359": {
         "model": "EN57AL"
     },
     "21722": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "21723": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "29507": {
         "model": "EN57AL"
@@ -249,10 +249,10 @@
         "model": "EN57AL"
     },
     "21724": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "21725": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "29363": {
         "model": "EN57AL"
@@ -330,7 +330,7 @@
         "model": "EN57AL"
     },
     "21736": {
-        "model": "ER75 / EN57AKM"
+        "model": "ER75"
     },
     "21737": {
         "model": "ER75"
@@ -339,10 +339,10 @@
         "model": "EN57AL"
     },
     "21738": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "21739": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "29551": {
         "model": "EN57AL"
@@ -396,7 +396,7 @@
         "model": "ER160"
     },
     "51430": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "51432": {
         "model": "ER160"
@@ -408,10 +408,10 @@
         "model": "EN76"
     },
     "51436": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "51438": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93602": {
         "model": "ER160"
@@ -522,10 +522,10 @@
         "model": "EN57AKM"
     },
     "12714": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "12715": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "93540": {
         "model": "EN57AKM"
@@ -780,7 +780,7 @@
         "model": "SA135"
     },
     "11900": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11902": {
         "model": "ER160"
@@ -849,10 +849,10 @@
         "model": "EN57AL"
     },
     "93822": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "93823": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "91416": {
         "model": "ER160"
@@ -885,10 +885,10 @@
         "model": "ER160"
     },
     "91422": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "91423": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "91424": {
         "model": "ER160"
@@ -957,7 +957,7 @@
         "model": "EN57AKM"
     },
     "11678": {
-        "model": "EN57AKM / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AKM"
     },
     "11680": {
         "model": "EN57AKM"
@@ -984,10 +984,10 @@
         "model": "ER75"
     },
     "11930": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11932": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11934": {
         "model": "EN57AL"
@@ -1008,13 +1008,13 @@
         "model": "EN57AL"
     },
     "11940": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10987": {
         "model": "EN57AL"
     },
     "11942": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11944": {
         "model": "ER160"
@@ -1035,7 +1035,7 @@
         "model": "EN57AL"
     },
     "11952": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10993": {
         "model": "EN57AL"
@@ -1050,7 +1050,7 @@
         "model": "EN57AL"
     },
     "11958": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11960": {
         "model": "ER160"
@@ -1095,16 +1095,16 @@
         "model": "EN57AL"
     },
     "91808": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "91809": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "93960": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "93961": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91810": {
         "model": "EN57AL"
@@ -1155,7 +1155,7 @@
         "model": "EN57AL"
     },
     "91822": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91823": {
         "model": "EN57AL"
@@ -1164,16 +1164,16 @@
         "model": "ER160"
     },
     "91826": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "91827": {
         "model": "45WE"
     },
     "91828": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "91829": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "91830": {
         "model": "ER160"
@@ -1194,13 +1194,13 @@
         "model": "ER160"
     },
     "51402": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "51404": {
         "model": "ER160"
     },
     "51406": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "51408": {
         "model": "ER160"
@@ -1209,121 +1209,121 @@
         "model": "EN76"
     },
     "93110": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93111": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93112": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93113": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93114": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93115": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93116": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93117": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93118": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93119": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93120": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93121": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93122": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93123": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93124": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93125": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93126": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93127": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93128": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93129": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93130": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93131": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93132": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93133": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93134": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93135": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93136": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93137": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93138": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93139": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93140": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93141": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "93142": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93143": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93144": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93145": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93146": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93147": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93152": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93153": {
         "model": "EN76"
@@ -1347,7 +1347,7 @@
         "model": "EN57AL"
     },
     "19630": {
-        "model": "EN57 / EN57AL"
+        "model": "EN57"
     },
     "93410": {
         "model": "EN57AL"
@@ -1509,7 +1509,7 @@
         "model": "ER160"
     },
     "93150": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "93151": {
         "model": "EN76"
@@ -1518,10 +1518,10 @@
         "model": "SA135"
     },
     "12704": {
-        "model": "EN57AL / 45WE / EN57AKM"
+        "model": "EN57AL"
     },
     "12705": {
-        "model": "EN57AL / 45WE / EN57AKM"
+        "model": "EN57AL"
     },
     "91494": {
         "model": "EN57AKM"
@@ -1572,10 +1572,10 @@
         "model": "EN57AKM"
     },
     "91554": {
-        "model": "EN57AKM / EN57AL"
+        "model": "EN57AKM"
     },
     "91555": {
-        "model": "EN57AKM / EN57AL"
+        "model": "EN57AKM"
     },
     "91556": {
         "model": "ER160"
@@ -1638,10 +1638,10 @@
         "model": "EN57AL"
     },
     "91120": {
-        "model": "EN76 / Wagony Piętrowe (Push-Pull)"
+        "model": "EN76"
     },
     "91121": {
-        "model": "EN76 / Wagony Piętrowe (Push-Pull)"
+        "model": "EN76"
     },
     "15341": {
         "model": "SA135"
@@ -1707,10 +1707,10 @@
         "model": "SA135"
     },
     "91128": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "91129": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "15359": {
         "model": "SA135"
@@ -1740,10 +1740,10 @@
         "model": "SA135"
     },
     "21610": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "21611": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "21612": {
         "model": "45WE"
@@ -1764,7 +1764,7 @@
         "model": "EN57AL"
     },
     "29451": {
-        "model": "EN57AL / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AL"
     },
     "21616": {
         "model": "ER160"
@@ -1797,10 +1797,10 @@
         "model": "EN57AL"
     },
     "21620": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "21621": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "29455": {
         "model": "EN57AL"
@@ -1812,10 +1812,10 @@
         "model": "Wagony Piętrowe (Push-Pull)"
     },
     "21622": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "21623": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "29457": {
         "model": "EN57AL"
@@ -1854,10 +1854,10 @@
         "model": "EN57AL"
     },
     "21630": {
-        "model": "EN76 / 45WE"
+        "model": "EN76"
     },
     "21631": {
-        "model": "EN76 / 45WE"
+        "model": "EN76"
     },
     "29463": {
         "model": "EN57AL"
@@ -1866,10 +1866,10 @@
         "model": "EN57AL"
     },
     "21632": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "21633": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "29508": {
         "model": "EN57AL"
@@ -1935,10 +1935,10 @@
         "model": "EN57AL"
     },
     "21640": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "21641": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "29512": {
         "model": "EN57AL"
@@ -1950,10 +1950,10 @@
         "model": "EN57AL"
     },
     "21642": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "21643": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "29471": {
         "model": "EN57AL"
@@ -1998,7 +1998,7 @@
         "model": "45WE"
     },
     "29477": {
-        "model": "EN57AL / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AL"
     },
     "29328": {
         "model": "EN57AL"
@@ -2064,7 +2064,7 @@
         "model": "EN57AKM"
     },
     "91860": {
-        "model": "ER75 / 45WE"
+        "model": "ER75"
     },
     "91861": {
         "model": "ER75"
@@ -2073,7 +2073,7 @@
         "model": "EN57AKM"
     },
     "91862": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91863": {
         "model": "ER75"
@@ -2085,10 +2085,10 @@
         "model": "222M"
     },
     "91866": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91867": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91868": {
         "model": "ER75"
@@ -2103,19 +2103,19 @@
         "model": "EN57AKM"
     },
     "91870": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91871": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91872": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91873": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "10685": {
-        "model": "EN57AKM / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AKM"
     },
     "10122": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -2142,19 +2142,19 @@
         "model": "Wagony Piętrowe (Push-Pull)"
     },
     "91876": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91877": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91878": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91879": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91880": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "91881": {
         "model": "ER75"
@@ -2316,13 +2316,13 @@
         "model": "EN57AL"
     },
     "29424": {
-        "model": "EN57AL / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AL"
     },
     "29426": {
         "model": "Wagony Piętrowe (Push-Pull)"
     },
     "29428": {
-        "model": "EN57AL / Wagony Piętrowe (Push-Pull)"
+        "model": "EN57AL"
     },
     "91950": {
         "model": "ER160"
@@ -2391,10 +2391,10 @@
         "model": "ER160"
     },
     "91964": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "91965": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "91966": {
         "model": "ER160"
@@ -2403,16 +2403,16 @@
         "model": "ER160"
     },
     "91968": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91969": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91970": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91971": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91972": {
         "model": "ER160"
@@ -2439,16 +2439,16 @@
         "model": "ER160"
     },
     "91980": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91981": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91982": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "91983": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "91984": {
         "model": "ER160"
@@ -2481,10 +2481,10 @@
         "model": "ER160"
     },
     "91992": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91993": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91994": {
         "model": "ER160"
@@ -2550,10 +2550,10 @@
         "model": "ER160"
     },
     "91444": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91445": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91446": {
         "model": "EN57AKM"
@@ -2574,10 +2574,10 @@
         "model": "EN57AL"
     },
     "91452": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "91453": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "93810": {
         "model": "ER160"
@@ -2670,7 +2670,7 @@
         "model": "EN57AL"
     },
     "91730": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "91731": {
         "model": "ER160"
@@ -2727,13 +2727,13 @@
         "model": "ER160"
     },
     "11730": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11732": {
         "model": "ER160"
     },
     "91581": {
-        "model": "EN57 / EN57AL"
+        "model": "EN57"
     },
     "11734": {
         "model": "ER160"
@@ -2793,7 +2793,7 @@
         "model": "ER160"
     },
     "11752": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11754": {
         "model": "ER160"
@@ -2820,7 +2820,7 @@
         "model": "ER160"
     },
     "91591": {
-        "model": "EN57 / EN57AL"
+        "model": "EN57"
     },
     "91593": {
         "model": "EN57AL"
@@ -2868,10 +2868,10 @@
         "model": "ER160"
     },
     "12610": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "12611": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "19904": {
         "model": "ER160"
@@ -2880,10 +2880,10 @@
         "model": "ER160"
     },
     "12612": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12613": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12600": {
         "model": "EN76"
@@ -2916,7 +2916,7 @@
         "model": "ER160"
     },
     "15603": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "12616": {
         "model": "ER160"
@@ -2937,16 +2937,16 @@
         "model": "ER160"
     },
     "12620": {
-        "model": "EN76 / 45WE"
+        "model": "EN76"
     },
     "12621": {
-        "model": "EN76 / 45WE"
+        "model": "EN76"
     },
     "12622": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "12623": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19912": {
         "model": "ER160"
@@ -2985,10 +2985,10 @@
         "model": "ER160"
     },
     "12630": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12631": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12602": {
         "model": "EN57AL"
@@ -3003,10 +3003,10 @@
         "model": "ER160"
     },
     "12632": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "12633": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "12604": {
         "model": "EN57AL"
@@ -3081,10 +3081,10 @@
         "model": "Wagony Piętrowe (Push-Pull)"
     },
     "12640": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12641": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "19928": {
         "model": "ER160"
@@ -3135,118 +3135,118 @@
         "model": "EN57AKM"
     },
     "97110": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97111": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97112": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97113": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97114": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97115": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97116": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97117": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97118": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97119": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97120": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97121": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97122": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97123": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97124": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97125": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97126": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97127": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97128": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97129": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97130": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97131": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97132": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97133": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97134": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97135": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97136": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97137": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97138": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97139": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97140": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97141": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97142": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97143": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97144": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97145": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97148": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97149": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "11246": {
         "model": "EN57AKM"
@@ -3348,10 +3348,10 @@
         "model": "ER160"
     },
     "19452": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "19453": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "93456": {
         "model": "EN57AKM"
@@ -3402,7 +3402,7 @@
         "model": "ER160"
     },
     "10925": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10609": {
         "model": "ER160"
@@ -3411,13 +3411,13 @@
         "model": "EN57AL"
     },
     "10709": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10611": {
         "model": "EN57AL"
     },
     "10927": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10613": {
         "model": "ER160"
@@ -3444,7 +3444,7 @@
         "model": "ER160"
     },
     "10715": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10621": {
         "model": "ER160"
@@ -3486,13 +3486,13 @@
         "model": "ER160"
     },
     "10937": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10635": {
         "model": "ER160"
     },
     "10723": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10637": {
         "model": "ER160"
@@ -3522,7 +3522,7 @@
         "model": "ER160"
     },
     "10731": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10645": {
         "model": "ER160"
@@ -3531,7 +3531,7 @@
         "model": "ER160"
     },
     "10943": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10647": {
         "model": "ER160"
@@ -3573,7 +3573,7 @@
         "model": "ER160"
     },
     "10947": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10653": {
         "model": "ER160"
@@ -3606,7 +3606,7 @@
         "model": "EN57AL"
     },
     "10755": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "10951": {
         "model": "ER160"
@@ -3654,10 +3654,10 @@
         "model": "ER160"
     },
     "19302": {
-        "model": "EN76 / EN57AKM"
+        "model": "EN76"
     },
     "19303": {
-        "model": "EN76 / EN57AKM"
+        "model": "EN76"
     },
     "19400": {
         "model": "ER160"
@@ -3678,10 +3678,10 @@
         "model": "EN57AKM"
     },
     "19380": {
-        "model": "ER75 / 45WE"
+        "model": "ER75"
     },
     "19381": {
-        "model": "ER75 / 45WE"
+        "model": "ER75"
     },
     "19958": {
         "model": "ER160"
@@ -3714,10 +3714,10 @@
         "model": "ER160"
     },
     "19310": {
-        "model": "EN57AL / EN57AKM"
+        "model": "EN57AL"
     },
     "19311": {
-        "model": "EN57AL / EN57AKM"
+        "model": "EN57AL"
     },
     "19962": {
         "model": "ER160"
@@ -3771,10 +3771,10 @@
         "model": "ER160"
     },
     "19444": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "19445": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "19478": {
         "model": "ER160"
@@ -3810,10 +3810,10 @@
         "model": "ER160"
     },
     "19446": {
-        "model": "EN57AKM / 45WE"
+        "model": "EN57AKM"
     },
     "19447": {
-        "model": "EN57AKM / 45WE"
+        "model": "EN57AKM"
     },
     "19482": {
         "model": "ER160"
@@ -3828,10 +3828,10 @@
         "model": "ER160"
     },
     "19406": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19407": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19448": {
         "model": "ER160"
@@ -3858,16 +3858,16 @@
         "model": "EN57AKM"
     },
     "19976": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "19977": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "19450": {
-        "model": "45WE / EN57AL"
+        "model": "45WE"
     },
     "19451": {
-        "model": "45WE / EN57AL"
+        "model": "45WE"
     },
     "19408": {
         "model": "ER160"
@@ -3888,10 +3888,10 @@
         "model": "ER160"
     },
     "19978": {
-        "model": "45WE / ER160"
+        "model": "45WE"
     },
     "19979": {
-        "model": "45WE / ER160"
+        "model": "45WE"
     },
     "12135": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -3930,10 +3930,10 @@
         "model": "EN57AKM"
     },
     "19384": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "19385": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "19153": {
         "model": "ER160"
@@ -3954,10 +3954,10 @@
         "model": "ER160"
     },
     "19124": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "19125": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "19410": {
         "model": "ER160"
@@ -4014,16 +4014,16 @@
         "model": "ER160"
     },
     "19388": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "19389": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "19988": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "19989": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "19155": {
         "model": "ER160"
@@ -4044,10 +4044,10 @@
         "model": "ER160"
     },
     "19129": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "19128": {
-        "model": "EN76 / EN57AL"
+        "model": "EN76"
     },
     "93452": {
         "model": "45WE"
@@ -4062,10 +4062,10 @@
         "model": "ER160"
     },
     "19456": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "19457": {
-        "model": "EN57AKM / ER160"
+        "model": "EN57AKM"
     },
     "19994": {
         "model": "ER160"
@@ -4128,16 +4128,16 @@
         "model": "EN57AKM"
     },
     "19440": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "19441": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "97151": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97150": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "19603": {
         "model": "ER160"
@@ -4158,10 +4158,10 @@
         "model": "EN57AKM"
     },
     "97153": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "97152": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "12710": {
         "model": "ER160"
@@ -4194,10 +4194,10 @@
         "model": "EN57AL"
     },
     "97155": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "97154": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "19842": {
         "model": "ER160"
@@ -4257,10 +4257,10 @@
         "model": "EN57AL"
     },
     "12716": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "12717": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "19858": {
         "model": "ER75"
@@ -4287,10 +4287,10 @@
         "model": "EN57AL"
     },
     "19860": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19861": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19734": {
         "model": "EN57AL"
@@ -4308,7 +4308,7 @@
         "model": "ER160"
     },
     "12719": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "11119": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -4332,16 +4332,16 @@
         "model": "ER160"
     },
     "19864": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19865": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "12720": {
         "model": "EN57AL"
     },
     "12721": {
-        "model": "EN57AL / EN57AKM"
+        "model": "EN57AL"
     },
     "19866": {
         "model": "ER75"
@@ -4359,7 +4359,7 @@
         "model": "ER75"
     },
     "19869": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "12722": {
         "model": "ER160"
@@ -4371,7 +4371,7 @@
         "model": "ER75"
     },
     "19871": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "19812": {
         "model": "EN57AL"
@@ -4383,7 +4383,7 @@
         "model": "EN57AL"
     },
     "19815": {
-        "model": "EN57AL / ER160"
+        "model": "EN57AL"
     },
     "11121": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -4446,13 +4446,13 @@
         "model": "ER160"
     },
     "12727": {
-        "model": "ER160 / 45WE"
+        "model": "ER160"
     },
     "19874": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19875": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19818": {
         "model": "ER160"
@@ -4479,13 +4479,13 @@
         "model": "ER75"
     },
     "12729": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "19876": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "19877": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "19737": {
         "model": "EN57AKM"
@@ -4506,19 +4506,19 @@
         "model": "ER160"
     },
     "19878": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19879": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19821": {
         "model": "ER160"
     },
     "12732": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "12733": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "19880": {
         "model": "ER160"
@@ -4530,10 +4530,10 @@
         "model": "ER160"
     },
     "19882": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19883": {
-        "model": "ER160 / ER75"
+        "model": "ER160"
     },
     "19534": {
         "model": "EN57AKM"
@@ -4578,10 +4578,10 @@
         "model": "ER160"
     },
     "12700": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "12701": {
-        "model": "EN57AL / 45WE"
+        "model": "EN57AL"
     },
     "19886": {
         "model": "ER160"
@@ -4602,10 +4602,10 @@
         "model": "ER75"
     },
     "12740": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "12741": {
-        "model": "ER160 / EN57AL"
+        "model": "ER160"
     },
     "19512": {
         "model": "EN57AL"
@@ -4620,7 +4620,7 @@
         "model": "ER75"
     },
     "19889": {
-        "model": "ER75 / ER160"
+        "model": "ER75"
     },
     "19601": {
         "model": "ER160"
@@ -4638,13 +4638,13 @@
         "model": "ER160"
     },
     "15605": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "15403": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "15425": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "15607": {
         "model": "EN76"
@@ -4662,7 +4662,7 @@
         "model": "ER160"
     },
     "15431": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "15139": {
         "model": "Wagony Piętrowe (Push-Pull)"
@@ -4671,13 +4671,13 @@
         "model": "ER160"
     },
     "15609": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "15109": {
         "model": "Wagony Piętrowe (Push-Pull)"
     },
     "15433": {
-        "model": "EN76 / ER160"
+        "model": "EN76"
     },
     "15611": {
         "model": "ER160"
@@ -4695,7 +4695,7 @@
         "model": "ER160"
     },
     "15407": {
-        "model": "ER160 / EN76"
+        "model": "ER160"
     },
     "15409": {
         "model": "ER160"
@@ -4887,9 +4887,9 @@
         "model": "ER160"
     },
     "91390": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     },
     "91391": {
-        "model": "ER160 / EN57AKM"
+        "model": "ER160"
     }
 }
