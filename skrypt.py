@@ -9,7 +9,6 @@ from urllib.parse import urljoin
 # ==========================================
 # KONFIGURACJA ZAUTOMATYZOWANA - DWUETAPOWA
 # ==========================================
-# Pierwszy krok: Strona ogólna
 STRONA_GLOWNA_KM = "https://www.mazowieckie.com.pl/pl/kategoria/tabele-rozkladow-jazdy"
 JSON_PATH = "train_models.json"
 
@@ -31,19 +30,19 @@ def znajdz_i_pobierz_pdfy():
         response_main.raise_for_status()
         soup_main = BeautifulSoup(response_main.text, 'html.parser')
         
-        # Zbieramy wszystkie linki do podstron z poszczególnymi rozkładami
-        podstrony = set() # Używamy set(), aby uniknąć duplikatów
+        # POPRAWKA 1: Używamy listy zamiast "zbioru (set)", 
+        # aby zachować kolejność odczytu. KM wrzuca najnowsze rozkłady na samą górę!
+        podstrony = [] 
         for link in soup_main.find_all('a', href=True):
             href = link['href']
-            # Szukamy linków kierujących do konkretnych rozkładów jazdy
             if 'rozklad-jazdy' in href.lower():
                 pelny_link_podstrony = urljoin(STRONA_GLOWNA_KM, href)
-                podstrony.add(pelny_link_podstrony)
+                if pelny_link_podstrony not in podstrony:
+                    podstrony.append(pelny_link_podstrony)
                 
         print(f"Znaleziono {len(podstrony)} podstron z rozkładami. Rozpoczynam KROK 2...")
         
         licznik = 1
-        # KROK 2: Wchodzimy w każdą podstronę i szukamy PDF-ów z zestawieniami
         for url_podstrony in podstrony:
             print(f"Skanowanie podstrony: {url_podstrony}")
             try:
@@ -52,7 +51,6 @@ def znajdz_i_pobierz_pdfy():
                 
                 for link in soup_sub.find_all('a', href=True):
                     href = link['href']
-                    # Jeśli to jest PDF i to PDF o ZESTAWIENIACH, to go bierzemy
                     if href.lower().endswith('.pdf') and 'zestawieni' in href.lower():
                         pelny_url_pdf = urljoin(url_podstrony, href)
                         
@@ -112,11 +110,10 @@ def konwertuj_pdf_na_json(pdf_pliki):
                             
                             if numery_w_wierszu and znaleziony_model:
                                 for nr in numery_w_wierszu:
-                                    if nr in train_db:
-                                        obecny_model = train_db[nr]["model"]
-                                        if znaleziony_model not in obecny_model:
-                                            train_db[nr]["model"] = f"{obecny_model} / {znaleziony_model}"
-                                    else:
+                                    # POPRAWKA 2: Zero podwójnych modeli!
+                                    # Ponieważ skanujemy najnowsze pliki jako pierwsze, 
+                                    # jeśli numer jest już w bazie, po prostu ignorujemy starsze wpisy.
+                                    if nr not in train_db:
                                         train_db[nr] = {"model": znaleziony_model}
         except Exception as e:
             print(f"❌ Błąd analizy {pdf_path}: {e}")
