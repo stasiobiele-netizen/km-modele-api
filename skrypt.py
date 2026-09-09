@@ -7,10 +7,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # ==========================================
-# KONFIGURACJA ZAUTOMATYZOWANA
+# KONFIGURACJA ZAUTOMATYZOWANA - DWUETAPOWA
 # ==========================================
-# Strona, na której KM publikuje PDF-y z zestawieniami
-STRONA_KM_URL = "https://www.mazowieckie.com.pl/pl/podstawowe-informacje/zestawienie-pociagow-km"
+# Pierwszy krok: Strona ogólna
+STRONA_GLOWNA_KM = "https://www.mazowieckie.com.pl/pl/kategoria/tabele-rozkladow-jazdy"
 JSON_PATH = "train_models.json"
 
 znane_modele = [
@@ -22,33 +22,55 @@ znane_modele = [
 ]
 
 def znajdz_i_pobierz_pdfy():
-    print(f"Skanowanie strony KM: {STRONA_KM_URL}...")
+    print(f"KROK 1: Skanowanie strony głównej... {STRONA_GLOWNA_KM}")
     pdf_pliki = []
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(STRONA_KM_URL, headers=headers)
-        response.raise_for_status()
+        response_main = requests.get(STRONA_GLOWNA_KM, headers=headers)
+        response_main.raise_for_status()
+        soup_main = BeautifulSoup(response_main.text, 'html.parser')
         
-        soup = BeautifulSoup(response.text, 'html.parser')
-        linki = soup.find_all('a', href=True)
-        
-        for link in linki:
+        # Zbieramy wszystkie linki do podstron z poszczególnymi rozkładami
+        podstrony = set() # Używamy set(), aby uniknąć duplikatów
+        for link in soup_main.find_all('a', href=True):
             href = link['href']
-            # Szukamy linków, które kończą się na .pdf i mają w nazwie "zestawienie" lub "zestawienia"
-            if href.lower().endswith('.pdf') and 'zestawieni' in href.lower():
-                pelny_url = urljoin(STRONA_KM_URL, href)
-                nazwa_pliku = pelny_url.split('/')[-1]
+            # Szukamy linków kierujących do konkretnych rozkładów jazdy
+            if 'rozklad-jazdy' in href.lower():
+                pelny_link_podstrony = urljoin(STRONA_GLOWNA_KM, href)
+                podstrony.add(pelny_link_podstrony)
                 
-                print(f"Znaleziono rozkład: {nazwa_pliku}")
-                # Pobieranie
-                pdf_resp = requests.get(pelny_url, headers=headers)
-                with open(nazwa_pliku, 'wb') as f:
-                    f.write(pdf_resp.content)
-                pdf_pliki.append(nazwa_pliku)
+        print(f"Znaleziono {len(podstrony)} podstron z rozkładami. Rozpoczynam KROK 2...")
+        
+        licznik = 1
+        # KROK 2: Wchodzimy w każdą podstronę i szukamy PDF-ów z zestawieniami
+        for url_podstrony in podstrony:
+            print(f"Skanowanie podstrony: {url_podstrony}")
+            try:
+                resp_sub = requests.get(url_podstrony, headers=headers)
+                soup_sub = BeautifulSoup(resp_sub.text, 'html.parser')
+                
+                for link in soup_sub.find_all('a', href=True):
+                    href = link['href']
+                    # Jeśli to jest PDF i to PDF o ZESTAWIENIACH, to go bierzemy
+                    if href.lower().endswith('.pdf') and 'zestawieni' in href.lower():
+                        pelny_url_pdf = urljoin(url_podstrony, href)
+                        
+                        nazwa_pliku = f"km_rozklad_{licznik}.pdf"
+                        print(f" ⬇️ Pobieranie PDF: {pelny_url_pdf} -> {nazwa_pliku}")
+                        
+                        pdf_resp = requests.get(pelny_url_pdf, headers=headers)
+                        with open(nazwa_pliku, 'wb') as f:
+                            f.write(pdf_resp.content)
+                            
+                        pdf_pliki.append(nazwa_pliku)
+                        licznik += 1
+            except Exception as e:
+                print(f" ❌ Błąd skanowania podstrony {url_podstrony}: {e}")
                 
         return pdf_pliki
     except Exception as e:
-        print(f"❌ Błąd podczas skanowania strony: {e}")
+        print(f"❌ Błąd podczas łączenia ze stroną KM: {e}")
         return []
 
 def konwertuj_pdf_na_json(pdf_pliki):
@@ -67,8 +89,8 @@ def konwertuj_pdf_na_json(pdf_pliki):
                                 continue
                             
                             tekst_wiersza = " ".join([str(komorka).strip().upper() for komorka in wiersz if komorka])
-                            dopasowania = re.finditer(r'(?<!\d)(\d{4,5})(?:[\/\-](\d+))?(?!\d)', tekst_wiersza)
                             
+                            dopasowania = re.finditer(r'(?<!\d)(\d{4,5})(?:[\/\-](\d+))?(?!\d)', tekst_wiersza)
                             numery_w_wierszu = []
                             for match in dopasowania:
                                 baza_numer = match.group(1) 
@@ -90,7 +112,6 @@ def konwertuj_pdf_na_json(pdf_pliki):
                             
                             if numery_w_wierszu and znaleziony_model:
                                 for nr in numery_w_wierszu:
-                                    # Inteligentne łączenie: jeśli numer już jest, ale model się różni
                                     if nr in train_db:
                                         obecny_model = train_db[nr]["model"]
                                         if znaleziony_model not in obecny_model:
@@ -100,26 +121,21 @@ def konwertuj_pdf_na_json(pdf_pliki):
         except Exception as e:
             print(f"❌ Błąd analizy {pdf_path}: {e}")
 
-    # Zapis do złączonego pliku JSON
     with open(JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(train_db, f, indent=4, ensure_ascii=False)
         
     print(f"\n✅ Zakończono sukcesem! Zapisano pociągów ze WSZYSTKICH rozkładów: {len(train_db)}")
 
-# ==========================================
-# URUCHOMIENIE I SPRZĄTANIE
-# ==========================================
 if __name__ == "__main__":
     pliki_do_przetworzenia = znajdz_i_pobierz_pdfy()
     
     if pliki_do_przetworzenia:
         konwertuj_pdf_na_json(pliki_do_przetworzenia)
         
-        # Sprzątanie - usuwamy pobrane PDF-y, żeby nie zajmowały miejsca
         print("\nSprzątanie plików tymczasowych...")
         for pdf_file in pliki_do_przetworzenia:
             if os.path.exists(pdf_file):
                 os.remove(pdf_file)
         print("🧹 Gotowe!")
     else:
-        print("❌ Nie znaleziono żadnych plików PDF na stronie.")
+        print("❌ Nie znaleziono żadnych plików PDF z zestawieniami.")
