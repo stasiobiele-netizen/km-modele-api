@@ -5735,9 +5735,14 @@
             "termin_surowy": "KM 2 19 IX-24 X (C)"
         },
         {
+            "model": "ER75",
+            "jednostki": "2",
+            "termin_surowy": "21 IX-23 X (D)"
+        },
+        {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 19 IX-24 X"
+            "termin_surowy": "W1 2 19 IX-24 X (C)"
         }
     ],
     "12705": [
@@ -5762,9 +5767,14 @@
             "termin_surowy": "KM 2 19 IX-24 X (C)"
         },
         {
+            "model": "ER75",
+            "jednostki": "2",
+            "termin_surowy": "21 IX-23 X (D)"
+        },
+        {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 19 IX-24 X"
+            "termin_surowy": "W1 2 19 IX-24 X (C)"
         }
     ],
     "91494": [
