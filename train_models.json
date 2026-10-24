@@ -5654,14 +5654,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93117": [
@@ -5676,14 +5676,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93118": [
@@ -5830,14 +5830,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93125": [
@@ -5852,14 +5852,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93126": [
@@ -6006,14 +6006,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93133": [
@@ -6028,14 +6028,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93134": [
@@ -6094,14 +6094,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93137": [
@@ -6116,14 +6116,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "93138": [
@@ -6182,14 +6182,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "93141": [
@@ -6204,14 +6204,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "93142": [
@@ -6270,14 +6270,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "93145": [
@@ -6292,14 +6292,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "93146": [
@@ -6520,14 +6520,14 @@
             "termin_surowy": "WKM 1 10-24 X (C)"
         },
         {
-            "model": "EN57",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 25 X-1 XI (C)"
-        },
-        {
             "model": "EN57AL",
             "jednostki": "1",
             "termin_surowy": "WKM 1 26 X-6 XI (D)"
+        },
+        {
+            "model": "EN57",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 25 X-1 XI (C)"
         }
     ],
     "19578": [
@@ -8833,7 +8833,7 @@
             "termin_surowy": "26 X-6 XI (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
@@ -8855,7 +8855,7 @@
             "termin_surowy": "26 X-6 XI (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
@@ -13338,14 +13338,14 @@
             "termin_surowy": "WKM 1 10-24 X (C)"
         },
         {
-            "model": "EN57",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 25 X-1 XI (C)"
-        },
-        {
             "model": "EN57AL",
             "jednostki": "1",
             "termin_surowy": "WKM 1 26 X-6 XI (D)"
+        },
+        {
+            "model": "EN57",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 25 X-1 XI (C)"
         }
     ],
     "11760": [
@@ -13963,7 +13963,7 @@
             "termin_surowy": "26 X-6 XI (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
@@ -13985,7 +13985,7 @@
             "termin_surowy": "26 X-6 XI (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
@@ -14910,14 +14910,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97113": [
@@ -14932,14 +14932,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97114": [
@@ -14998,14 +14998,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97117": [
@@ -15020,14 +15020,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97118": [
@@ -15130,14 +15130,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97123": [
@@ -15152,14 +15152,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97124": [
@@ -15174,14 +15174,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97125": [
@@ -15196,14 +15196,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97126": [
@@ -15262,14 +15262,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97129": [
@@ -15284,14 +15284,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "25 X-1 XI (C)"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "26 X-6 XI (D)"
         }
     ],
     "97130": [
@@ -15350,14 +15350,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97133": [
@@ -15372,14 +15372,14 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97134": [
@@ -15438,14 +15438,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97137": [
@@ -15460,14 +15460,14 @@
             "termin_surowy": "12-23 X (D)"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "25 X-1 XI (C)"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "26 X-6 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "25 X-1 XI (C)"
         }
     ],
     "97138": [
@@ -17673,7 +17673,7 @@
             "termin_surowy": "KM 2 12-23 X (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         },
@@ -17695,7 +17695,7 @@
             "termin_surowy": "KM 2 12-23 X (D)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         },
@@ -22088,12 +22088,7 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
-            "model": "ER75",
-            "jednostki": "2",
-            "termin_surowy": "25 X,1 XI"
+            "termin_surowy": "25 X-6 XI (B)"
         }
     ],
     "19883": [
@@ -22110,12 +22105,7 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "26 X-6 XI (D)"
-        },
-        {
-            "model": "ER75",
-            "jednostki": "2",
-            "termin_surowy": "25 X,1 XI"
+            "termin_surowy": "25 X-6 XI (B)"
         }
     ],
     "19534": [
@@ -22466,12 +22456,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "25 X,1 XI"
+            "termin_surowy": "31 X"
         },
         {
-            "model": "ER160",
+            "model": "ER75",
             "jednostki": "2",
-            "termin_surowy": "31 X"
+            "termin_surowy": "25 X,1 XI"
         }
     ],
     "19824": [
@@ -23657,7 +23647,7 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
@@ -23669,7 +23659,7 @@
             "termin_surowy": "10-24 X (C)"
         },
         {
-            "model": "ER75",
+            "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "25 X-1 XI (C)"
         }
