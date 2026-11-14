@@ -358,7 +358,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -385,7 +390,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -498,9 +508,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -525,9 +535,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -1210,12 +1220,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
             "model": "EN57AL",
@@ -1267,12 +1277,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
             "model": "EN57AL",
@@ -2043,14 +2053,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -2080,14 +2090,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -2713,14 +2723,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER75",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER75",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER75",
@@ -3844,12 +3854,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -3871,12 +3881,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -6546,9 +6556,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI"
         },
         {
             "model": "ER160",
@@ -6578,9 +6588,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI"
         },
         {
             "model": "ER160",
@@ -7391,7 +7401,7 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", B, BS 1, 6, 1 16-21,23-26 XI"
+            "termin_surowy": ", BS, B 1, 1, 6 16-21,23-26 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -7418,7 +7428,7 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", B, BS 1, 6, 1 16-21,23-26 XI"
+            "termin_surowy": ", BS, B 1, 1, 6 16-21,23-26 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -7446,6 +7456,11 @@
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 1 15 XI"
+        },
+        {
+            "model": "EN57AKM",
+            "jednostki": "1",
+            "termin_surowy": "W1 1 17-26 XI (2-5,7)"
         },
         {
             "model": "EN57AKM",
@@ -7608,9 +7623,9 @@
             "termin_surowy": ", BS, P, B 1, 1, 3, 2 14 XI"
         },
         {
-            "model": "EN57AKM",
+            "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": "W1 1 16-26 XI (D)"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -7618,9 +7633,9 @@
             "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
-            "model": "Wagony Piętrowe (Push-Pull)",
+            "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": "W1 1 16-26 XI (D)"
         },
         {
             "model": "EN57AKM",
@@ -7701,12 +7716,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -7743,12 +7758,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -8809,14 +8824,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "EN57AKM",
@@ -8856,14 +8871,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "EN57AKM",
@@ -9281,7 +9296,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -9298,7 +9318,7 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10271,14 +10291,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10308,14 +10328,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10345,14 +10365,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10382,14 +10402,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10641,14 +10661,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10678,14 +10698,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -10789,14 +10809,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -10826,14 +10846,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -11011,14 +11031,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -11048,14 +11068,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -11372,14 +11392,14 @@
             "termin_surowy": "WKM 1 14-15 XI"
         },
         {
-            "model": "EN57",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 21-22 XI"
-        },
-        {
             "model": "EN57AL",
             "jednostki": "1",
             "termin_surowy": "WKM 1 16-26 XI (D)"
+        },
+        {
+            "model": "EN57",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 21-22 XI"
         },
         {
             "model": "EN57",
@@ -13512,14 +13532,14 @@
             "termin_surowy": ", B, BS 1, 4, 1 14 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "22 XI"
-        },
-        {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
             "termin_surowy": ", B, BS 1, 4, 1 16-21,23-26 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "22 XI"
         },
         {
             "model": "EN76",
@@ -13559,14 +13579,14 @@
             "termin_surowy": ", B, BS 1, 4, 1 14 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "22 XI"
-        },
-        {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
             "termin_surowy": ", B, BS 1, 4, 1 16-21,23-26 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "22 XI"
         },
         {
             "model": "EN76",
@@ -14541,14 +14561,14 @@
             "termin_surowy": ", B, BS 1, 3, 1 14 XI"
         },
         {
-            "model": "EN57AL",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 22 XI"
-        },
-        {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
             "termin_surowy": ", B, BS 1, 3, 1 16-21,23-26 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 22 XI"
         },
         {
             "model": "EN57AL",
@@ -16439,14 +16459,14 @@
             "termin_surowy": ", P, PS 1, 4, 1 15 XI"
         },
         {
-            "model": "EN57AL",
-            "jednostki": "1",
-            "termin_surowy": "WKM 2 21 XI"
-        },
-        {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
             "termin_surowy": ", P, PS 1, 4, 1 16-26 XI (B)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21 XI"
         },
         {
             "model": "EN57AL",
@@ -16626,9 +16646,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI"
         },
         {
             "model": "ER160",
@@ -16658,9 +16678,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI"
         },
         {
             "model": "ER160",
@@ -17444,14 +17464,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER75",
@@ -17491,14 +17511,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER75",
@@ -17627,9 +17647,9 @@
             "termin_surowy": ", BS, P, B 1, 1, 3, 2 14 XI"
         },
         {
-            "model": "EN57AKM",
+            "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": "W1 1 16-26 XI (D)"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -17637,9 +17657,9 @@
             "termin_surowy": ", P, B, BS 1, 3, 2, 1 22 XI"
         },
         {
-            "model": "Wagony Piętrowe (Push-Pull)",
+            "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": "W1 1 16-26 XI (D)"
         },
         {
             "model": "EN57AKM",
@@ -17939,14 +17959,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -17981,14 +18001,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -18295,12 +18315,12 @@
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 20 XI"
+            "termin_surowy": "W1 1 16-19,21-26 XI"
         },
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 1 16-19,21-26 XI"
+            "termin_surowy": "W1 2 20 XI"
         },
         {
             "model": "EN57AKM",
@@ -18337,12 +18357,12 @@
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 20 XI"
+            "termin_surowy": "W1 1 16-19,21-26 XI"
         },
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 1 16-19,21-26 XI"
+            "termin_surowy": "W1 2 20 XI"
         },
         {
             "model": "EN57AKM",
@@ -19266,14 +19286,14 @@
             "termin_surowy": ", P, PS 1, 4, 1 15 XI"
         },
         {
-            "model": "EN57AL",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 21 XI"
-        },
-        {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
             "termin_surowy": ", P, PS 1, 4, 1 16-26 XI (B)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 21 XI"
         },
         {
             "model": "EN57AL",
@@ -19911,14 +19931,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -19953,14 +19973,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -20123,14 +20143,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -20165,14 +20185,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -21498,14 +21518,14 @@
             "termin_surowy": "W1 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 21-22 XI"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -21540,14 +21560,14 @@
             "termin_surowy": "W1 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 21-22 XI"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -22098,13 +22118,8 @@
         },
         {
             "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
-            "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "termin_surowy": "16-26 XI"
         },
         {
             "model": "ER160",
@@ -22135,13 +22150,8 @@
         },
         {
             "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
-            "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "termin_surowy": "16-26 XI"
         },
         {
             "model": "ER160",
@@ -23640,14 +23650,14 @@
             "termin_surowy": "WKM 1 14-15 XI"
         },
         {
-            "model": "EN57AL",
-            "jednostki": "1",
-            "termin_surowy": "WKM 1 16-26 XI (D)"
-        },
-        {
             "model": "EN57",
             "jednostki": "1",
             "termin_surowy": "WKM 1 21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 1 16-26 XI (D)"
         },
         {
             "model": "EN57",
@@ -26342,14 +26352,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -26379,14 +26389,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -26712,14 +26722,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -26749,14 +26759,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -26786,14 +26796,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -26823,14 +26833,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -27156,14 +27166,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "EN76",
@@ -27193,14 +27203,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "EN76",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER160",
             "jednostki": "1",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN76",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "EN76",
@@ -27304,14 +27314,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -27341,14 +27351,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN76",
             "jednostki": "2",
             "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -27671,7 +27681,7 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", B, BS 1, 6, 1 16-26 XI (B)"
+            "termin_surowy": ", BS, B 1, 1, 6 16-26 XI (B)"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -27698,7 +27708,7 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", B, BS 1, 6, 1 16-26 XI (B)"
+            "termin_surowy": ", BS, B 1, 1, 6 16-26 XI (B)"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -31892,7 +31902,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -31924,7 +31939,12 @@
         {
             "model": "ER160",
             "jednostki": "2",
-            "termin_surowy": "16-26 XI"
+            "termin_surowy": "16-26 XI (D)"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -32043,14 +32063,14 @@
             "termin_surowy": "W1 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 21-22 XI"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -32090,14 +32110,14 @@
             "termin_surowy": "W1 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 21-22 XI"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -32736,9 +32756,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -32768,9 +32788,9 @@
             "termin_surowy": "WKM 2 14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -35212,14 +35232,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -35254,14 +35274,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "2",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -35460,12 +35480,12 @@
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 16,23 XI"
+            "termin_surowy": "W1 1 17-20,24-26 XI"
         },
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 1 17-20,24-26 XI"
+            "termin_surowy": "W1 2 16,23 XI"
         },
         {
             "model": "EN57AKM",
@@ -35492,12 +35512,12 @@
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 2 16,23 XI"
+            "termin_surowy": "W1 1 17-20,24-26 XI"
         },
         {
             "model": "EN57AKM",
             "jednostki": "1",
-            "termin_surowy": "W1 1 17-20,24-26 XI"
+            "termin_surowy": "W1 2 16,23 XI"
         },
         {
             "model": "EN57AKM",
@@ -36825,14 +36845,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -36862,14 +36882,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "21-22 XI"
-        },
-        {
             "model": "EN57AKM",
             "jednostki": "1",
             "termin_surowy": "W1 2 16-26 XI (D)"
+        },
+        {
+            "model": "ER160",
+            "jednostki": "1",
+            "termin_surowy": "21-22 XI"
         },
         {
             "model": "ER160",
@@ -37364,9 +37384,9 @@
             "termin_surowy": "21-22 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -38377,14 +38397,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -38414,14 +38434,14 @@
             "termin_surowy": "14-15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
-        },
-        {
             "model": "ER75",
             "jednostki": "2",
             "termin_surowy": "21-22 XI"
+        },
+        {
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -39075,12 +39095,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 16-26 XI (B)"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 16-26 XI (B)"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -39122,12 +39142,12 @@
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", P, B, BS 1, 3, 2, 1 16-26 XI (B)"
+            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
             "jednostki": "1",
-            "termin_surowy": ", BS, P, B 1, 1, 3, 2 21 XI"
+            "termin_surowy": ", P, B, BS 1, 3, 2, 1 16-26 XI (B)"
         },
         {
             "model": "Wagony Piętrowe (Push-Pull)",
@@ -39452,9 +39472,9 @@
             "termin_surowy": "9-10,12-13 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -39494,9 +39514,9 @@
             "termin_surowy": "15 XI"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-26 XI (D)"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 16-26 XI (D)"
         },
         {
             "model": "ER160",
@@ -39547,13 +39567,13 @@
         },
         {
             "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "20,22 XI"
+            "jednostki": "2",
+            "termin_surowy": "16-19,23-26 XI"
         },
         {
             "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-19,23-26 XI"
+            "jednostki": "1",
+            "termin_surowy": "20,22 XI"
         },
         {
             "model": "ER160",
@@ -39579,13 +39599,13 @@
         },
         {
             "model": "ER160",
-            "jednostki": "1",
-            "termin_surowy": "20,22 XI"
+            "jednostki": "2",
+            "termin_surowy": "16-19,23-26 XI"
         },
         {
             "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "16-19,23-26 XI"
+            "jednostki": "1",
+            "termin_surowy": "20,22 XI"
         },
         {
             "model": "ER160",
@@ -39836,9 +39856,9 @@
             "termin_surowy": "16-26 XI (D)"
         },
         {
-            "model": "ER160",
-            "jednostki": "2",
-            "termin_surowy": "21-22 XI"
+            "model": "EN57AL",
+            "jednostki": "1",
+            "termin_surowy": "WKM 2 21-22 XI"
         },
         {
             "model": "ER160",
@@ -41828,13 +41848,6 @@
             "model": "ER160",
             "jednostki": "2",
             "termin_surowy": "16-26 XI"
-        }
-    ],
-    "11672": [
-        {
-            "model": "EN57AKM",
-            "jednostki": "1",
-            "termin_surowy": "W1 1 17-26 XI (2-5,7)"
         }
     ],
     "11258": [
